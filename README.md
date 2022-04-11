@@ -1,6 +1,7 @@
 # Private-Wall
 
 Objectives
+
 Practice connecting a Flask application to a MySQL database
 Include login and registration
 Self Join relationships
@@ -11,6 +12,7 @@ For this assignment, a user's "wall" is a list of their private messages. Once a
 
 
 Additional Sensei Bonus
+
 For the delete functionality, do not allow someone to remove a message that doesn't belong to them. If someone tries to remove a message that doesn't belong to them, have your app display the following:
 
 <img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/danger.png">
