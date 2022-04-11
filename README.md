@@ -7,7 +7,7 @@ Self Join relationships
 Continue to think about web security and how others could potentially hack your site
 For this assignment, a user's "wall" is a list of their private messages. Once a user has logged in, they can view their wall and, on this same page, the logged in user can also send messages to other users. The yellow sticky notes indicate basic functionality. Review the green sticky notes for Ninja Bonuses and purple sticky notes for Sensei Bonuses.
 
-<img src="https://s3.us-east-1.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/1631032718__private_wall.gif">
+<img src="https://user-images.githubusercontent.com/92617960/148714176-8b8315f7-c353-4a14-b9d8-2ff5896b4363.png">
 
 
 Additional Sensei Bonus
