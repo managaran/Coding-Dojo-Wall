@@ -1,21 +1,35 @@
-# Private-Wall
+# Coding-Dojo-Wall
 
-Objectives
+Learning Objectives:
 
-Practice connecting a Flask application to a MySQL database
-Include login and registration
-Self Join relationships
-Continue to think about web security and how others could potentially hack your site
-For this assignment, a user's "wall" is a list of their private messages. Once a user has logged in, they can view their wall and, on this same page, the logged in user can also send messages to other users. The yellow sticky notes indicate basic functionality. Review the green sticky notes for Ninja Bonuses and purple sticky notes for Sensei Bonuses.
+Connect a Flask application to a MySQL database.
+Create login and registration within an app.
+Handle a one-to-many relationship that involves users.
+Manipulate and filter data using user ids
+Create a wall/forum page where users will be able to post a message and see the message displayed by other users. Store the posted messages in a table called 'posts' and retrieve the posts from the database. Follow the below wireframe.
 
-<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Wall_%28Flask%29.png">
+1. Create a login and registration page that is displayed when a user navigates to 'localhost:5000/'
 
+2. Once the user has logged in successfully redirect them to 'localhost:5000/wall' that will show the wall.
 
-Additional Sensei Bonus
+Download the handout (no bonus) and/or bonus here for the wireframe/ERD:
 
-For the delete functionality, do not allow someone to remove a message that doesn't belong to them. If someone tries to remove a message that doesn't belong to them, have your app display the following:
+SENSEI BONUS: Once you get the messages to show up, allow users to post comments for any message. Store the replies/comments to the message in a separate table called 'comments'.
 
-<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/danger.png">
+Helpful tip from our founder:
 
+Create a completed login & registration
 
-You don't really need to build the feature to report the IP address, but do log the user out if they try to remove a message that doesn't belong to them for the second time in a row. We'll leave it up to you to find out how to find the IP address of the user (a simple google search will show you how to do this in Flask).
+Create a clickable prototype (clickable template) with forms and other elements for the wall page
+
+Create the ERD and forward engineer. (Note: for the sensei bonus, it may look different from the example)
+
+Modularize the project and create the models
+
+Strategize first - then add all the routes in your controller. First add render routes, then the post routes and other action/processing routes like delete and log out
+
+Work one feature at a time: create functionality, displaying all posts, delete, logout etc.
+
+Finally, add validations
+
+SENSEI BONUS (Optional): Add the ability to comment on posts.
